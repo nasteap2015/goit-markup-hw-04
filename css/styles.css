@@ -116,6 +116,21 @@ body{
     color: #404BBF;
 }
 
+.navigation-links.studio:hover{
+    position: relative;
+    color: #404bbf;
+}
+
+.navigation-links.studio::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 .address-list{
     display: flex;
     gap: 40px;
@@ -395,6 +410,7 @@ body{
     color:#F4F4FD;
     line-height: 1.5;
     background-color: #4D5AE5;
+    letter-spacing: 0.02em;
     padding: 40px 32px;
     position: absolute;
     top: 0;
