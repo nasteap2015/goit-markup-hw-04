@@ -116,16 +116,17 @@ body{
     color: #404BBF;
 }
 
-.navigation-links.studio:hover{
+.navigation-links.studio{
     position: relative;
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .navigation-links.studio::after{
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
+    display: block;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
